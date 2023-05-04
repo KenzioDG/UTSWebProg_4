@@ -16,7 +16,7 @@ Web ini menggunakan database berisi dua tabel, yaitu users dan transaction. User
 - Home menampilkan loyalty level user dan mengubah warna header dan footer tergantung loyalty level user
 
 ### Coffee List
-![home](https://user-images.githubusercontent.com/127408388/236316592-da8ae211-af75-4d68-b4e8-d2391b9bc621.png)
+![coffee-list](https://user-images.githubusercontent.com/127408388/236316754-01aa37ff-0b91-4738-8692-3c1cdfab3c32.png)
 
 - Coffee list memiliki header dan footer yang sama dengan home.
 - Namun tanpa perubahan warna yang tergantung loyalty atas alasan konsistensi estetik

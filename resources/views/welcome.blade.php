@@ -70,7 +70,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <p>&copy; 2023 Coffee Shop. All rights reserved.</p>
+                    <p>&copy; 2023 Starbucks Coffee. All rights reserved.</p>
                 </div>
                 <div class="col-sm-6 text-end">
                     <p>Follow us on social media:</p>

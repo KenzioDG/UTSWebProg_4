@@ -53,7 +53,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Coffee Shop</a>
+                <a class="navbar-brand" href="#">Starbucks</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -64,7 +64,7 @@
                             <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/coffee-list">Coffee List</a>
+                            <a class="nav-link" href="/coffee-list">Shop</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/transaction-history">Transaction History</a>
@@ -182,13 +182,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <p>&copy; 2023 Coffee Shop. All rights reserved.</p>
+                    <p>&copy; 2023 Starbucks Coffee. All rights reserved.</p>
                 </div>
                 <div class="col-sm-6 text-end">
                     <p>Follow us on social media:</p>
-                    <a href="#" class="btn btn-primary">Facebook</a>
-                    <a href="#" class="btn btn-primary">Twitter</a>
-                    <a href="#" class="btn btn-primary">Instagram</a>
+                    <a href="https://www.facebook.com/StarbucksIndonesia/?locale=id_ID" class="btn btn-primary">Facebook</a>
+                    <a href="https://twitter.com/SbuxIndonesia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="btn btn-primary">Twitter</a>
+                    <a href="https://www.instagram.com/starbucksindonesia/?hl=en" class="btn btn-primary">Instagram</a>
                 </div>
             </div>
         </div>

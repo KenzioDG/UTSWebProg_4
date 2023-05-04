@@ -7,6 +7,8 @@ NIM : 2440022025
 ## Tentang Project
 Pada project ini saya membuat webpage starbucks coffee karena NIM saya ganjil. Web saya terdiri dari tiga page, yaitu welcome, coffee-list, dan transaction. Seluruh page ini memiliki routing antar page ke page lain yang terdapat di headernya. Lalu semua page juga mempunyai footer yang saya gunakan sebagai button yang mereferensi menuju sosial media Starbucks. 
 
+Web ini menggunakan database berisi dua tabel, yaitu users dan transaction. User hasMany transaction. Tabel users terdiri dari id, name, loyalty_level. Tanel transaction terdiri dari id, date, coffee, user_id(foreign key). Data diisi dengan seeder, dan diretrieve dengan controller yang mereturn ke view.
+
 ### Home
 - Home dapat menampilkan greeting dengan waktu dan nama user
 - Home menampilkan loyalty level user dan mengubah warna header dan footer tergantung loyalty level user

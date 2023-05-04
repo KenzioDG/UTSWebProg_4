@@ -1,14 +1,25 @@
 ## UTS Web Programming
-Nama: Kenzio Dewapramadhani Ganinda
+Nama : Kenzio Dewapramadhani Ganinda </br>
 NIM : 2440022025
  
-## Learning Laravel
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+ 
+## Tentang Project
+Pada project ini saya membuat webpage starbucks coffee karena NIM saya ganjil. Web saya terdiri dari tiga page, yaitu welcome, coffee-list, dan transaction. Seluruh page ini memiliki routing antar page ke page lain yang terdapat di headernya. Lalu semua page juga mempunyai footer yang saya gunakan sebagai button yang mereferensi menuju sosial media Starbucks. 
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Home
+- Home dapat menampilkan greeting dengan waktu dan nama user
+- Home menampilkan loyalty level user dan mengubah warna header dan footer tergantung loyalty level user
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### Coffee List
+- Coffee list memiliki header dan footer yang sama dengan home.
+- Namun tanpa perubahan warna yang tergantung loyalty atas alasan konsistensi estetik
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Transaction History
+- Page ini memiliki header dan footer yang sama dengan home dan coffee list
+- Pada page ini ditampilkan transaksi yang telah dilakukan oleh user
+
+
 
 ## Laravel Sponsors
 

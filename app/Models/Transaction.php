@@ -12,7 +12,6 @@ class Transaction extends Model
     protected $fillable = [
         'date',
         'coffee',
-        'quantity',
         'user_id',
     ];
 

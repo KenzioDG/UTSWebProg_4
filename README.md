@@ -10,7 +10,7 @@ Pada project ini saya membuat webpage starbucks coffee karena NIM saya ganjil. W
 Web ini menggunakan database berisi dua tabel, yaitu users dan transaction. User hasMany transaction. Tabel users terdiri dari id, name, loyalty_level. Tanel transaction terdiri dari id, date, coffee, user_id(foreign key). Data diisi dengan seeder, dan diretrieve dengan controller yang mereturn ke view.
 
 ### Home
-![image](https://user-images.githubusercontent.com/127408388/236464536-af99ef57-f33d-44fd-ad36-d5d717b63dcf.png)
+![image](https://user-images.githubusercontent.com/127408388/236527424-d58ae9ec-ae08-482d-b6f1-9baeb2085b31.png)
 
 - Home dapat menampilkan greeting dengan waktu dan nama user
 - Home menampilkan loyalty level user dan mengubah warna header dan footer tergantung loyalty level user

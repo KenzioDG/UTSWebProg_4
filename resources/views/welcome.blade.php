@@ -77,11 +77,9 @@
 
     <footer class="py-3" @if ($loyalty === 'gold')
     style="background-color: gold; color: black;"
-@elseif ($loyalty === 'green')
-    style="background-color: green; color: white;"
-@else
-    style="background-color: #343a40; color: white;"
-@endif>
+        @else
+            style="background-color: darkolivegreen; color: white;"
+        @endif>
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">

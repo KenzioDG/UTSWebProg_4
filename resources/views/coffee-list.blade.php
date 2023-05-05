@@ -74,7 +74,7 @@
                             <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/coffee-list">Shop</a>
+                            <a class="nav-link" href="/coffee-list">Cofee List</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/transaction-history">Transaction History</a>
@@ -86,7 +86,7 @@
     </header>
 
     <div class="container">
-        <h1>Coffee List</h1>
+        <h1>Our Coffee</h1>
         <hr>
         <div class="row">
             <div class="col-sm-4 mb-3">

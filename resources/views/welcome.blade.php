@@ -23,11 +23,26 @@
             color: #00704A;
         }
 
+        .navbar-light .navbar-brand {
+            color: #00704A;
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            color: #00704A;
+        }
+
+        .btn-primary {
+            background-color: #00704A;
+            border-color: #00704A;
+        }
+
     </style>
 
     <nav class="navbar navbar-expand-lg navbar-light @if($loyalty == 'gold') bg-warning @else bg-light @endif">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Starbucks</a>
+            <a class="navbar-brand" href="#"> <img src="https://www.starbuckschilled.com/static/img/logo.87d8a2ad.png" width="30" height="30" class="d-inline-block align-top" alt="Starbucks logo">
+                Starbucks
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -74,9 +89,9 @@
                 </div>
                 <div class="col-sm-6 text-end">
                     <p>Follow us on social media:</p>
-                    <a href="#" class="btn btn-primary" style="background-color: #00704A;; border-color: #00704A;">Facebook</a>
-                    <a href="#" class="btn btn-primary" style="background-color: #00704A;; border-color: #00704A;;">Twitter</a>
-                    <a href="#" class="btn btn-primary" style="background-color: #00704A;; border-color: #00704A;;">Instagram</a>
+                    <a href="https://www.facebook.com/StarbucksIndonesia/?locale=id_ID" class="btn btn-primary" style="background-color:#00704A; border: #00704A">Facebook</a>
+                    <a href="https://twitter.com/SbuxIndonesia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="btn btn-primary" style="background-color:#00704A; border: #00704A">Twitter</a>
+                    <a href="https://www.instagram.com/starbucksindonesia/?hl=en" class="btn btn-primary" style="background-color:#00704A; border: #00704A">Instagram</a>
                 </div>
             </div>
         </div>

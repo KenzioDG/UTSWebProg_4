@@ -13,11 +13,11 @@
             background-color: beige;
         }
         footer {
-            position: absolute;
+            position: fixed;
             bottom: 0;
             width: 100%;
             height: 100px;
-            display: flex;
+            margin-top: auto;
         }
 
         .btn-primary{
@@ -38,7 +38,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"> <img src="https://www.starbuckschilled.com/static/img/logo.87d8a2ad.png" width="30" height="30" class="d-inline-block align-top" alt="Starbucks logo">
+        <a class="navbar-brand"> <img src="https://www.starbuckschilled.com/static/img/logo.87d8a2ad.png" width="30" height="30" class="d-inline-block align-top" alt="Starbucks logo">
             Starbucks
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,7 +63,7 @@
     <div class="container mt-4">
       <h1>Transaction History</h1>
       <p><strong>User:</strong> {{ $user->name }}</p>
-      <p><strong>Loyalty Level:</strong> {{ $user->loyalty }}</p>
+      <p><strong>Loyalty Level:</strong> You are {{ $user->loyalty }} level</p>
       <table class="table">
         <thead>
           <tr>

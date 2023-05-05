@@ -8,6 +8,7 @@
     <style>
         body {
 			background-color: beige;
+            min-height: 2400px;
 		}
 
 		.card {
@@ -95,7 +96,12 @@
                     <div class="card-body">
                         <h5 class="card-title">Cappuccino</h5>
                         <p class="card-text">A traditional Italian coffee beverage that is prepared with espresso, steamed milk, and milk foam. It is typically served in a 6 oz. cup.</p>
-                        <a href="#" class="btn btn-primary">Buy Now</a>
+                        <form method="POST" action="{{ route('coffee.buy') }}" class="mb-3" id="buy-form">
+                            @csrf
+                            <input type="hidden" name="coffee" value="Cappuccino">
+                            <button type="button" class="btn btn-primary" onclick="confirmAndSubmit()">Buy</button>
+                          </form>
+
                     </div>
                 </div>
             </div>
@@ -105,7 +111,11 @@
                     <div class="card-body">
                         <h5 class="card-title">Espresso</h5>
                         <p class="card-text">A strong black coffee made by forcing steam through ground coffee beans. It is typically served in a small 1-2 oz. shot glass.</p>
-                        <a href="#" class="btn btn-primary">Buy Now</a>
+                        <form method="POST" action="{{ route('coffee.buy') }}">
+                            @csrf
+                            <input type="hidden" name="coffee" value="Espresso">
+                            <button type="submit" class="btn btn-primary" onclick="confirmAndSubmit()">Buy</button>
+                          </form>
                     </div>
                 </div>
             </div>
@@ -115,7 +125,11 @@
                     <div class="card-body">
                         <h5 class="card-title">Latte</h5>
                         <p class="card-text">A coffee drink made with espresso and steamed milk. It is typically served in a 8-12 oz. glass.</p>
-                        <a href="#" class="btn btn-primary">Buy Now</a>
+                        <form method="POST" action="{{ route('coffee.buy') }}">
+                            @csrf
+                            <input type="hidden" name="coffee" value="Latte">
+                            <button type="submit" class="btn btn-primary" onclick="confirmAndSubmit()">Buy</button>
+                          </form>
                     </div>
                 </div>
             </div>
@@ -126,7 +140,11 @@
                     <div class="card-body">
                         <h5 class="card-title">Americano</h5>
                         <p class="card-text">A coffee drink prepared by diluting espresso with hot water, giving it a similar taste to regular brewed coffee. It is typically served in a 6-8 oz. cup.</p>
-                        <a href="#" class="btn btn-primary">Buy Now</a>
+                        <form method="POST" action="{{ route('coffee.buy') }}">
+                            @csrf
+                            <input type="hidden" name="coffee" value="Americano">
+                            <button type="submit" class="btn btn-primary" onclick="confirmAndSubmit()">Buy</button>
+                          </form>
                     </div>
                 </div>
             </div>
@@ -136,7 +154,11 @@
                     <div class="card-body">
                         <h5 class="card-title">Mocha</h5>
                         <p class="card-text">A coffee drink that combines espresso with steamed milk and chocolate syrup or powder. It is typically served in a 8-12 oz. glass.</p>
-                        <a href="#" class="btn btn-primary">Buy Now</a>
+                        <form method="POST" action="{{ route('coffee.buy') }}">
+                            @csrf
+                            <input type="hidden" name="coffee" value="Mocha">
+                            <button type="submit" class="btn btn-primary" onclick="confirmAndSubmit()">Buy</button>
+                          </form>
                     </div>
                 </div>
             </div>
@@ -147,7 +169,12 @@
                     <div class="card-body">
                         <h5 class="card-title">Iced Coffee</h5>
                         <p class="card-text">A chilled coffee beverage that is served over ice. It is typically made with regular brewed coffee and milk or cream, and can be sweetened to taste.</p>
-                        <a href="#" class="btn btn-primary">Buy Now</a>
+                        <form method="POST" action="{{ route('coffee.buy') }}">
+                            @csrf
+                            <input type="hidden" name="coffee" value="Iced Coffee">
+                            <button type="submit" class="btn btn-primary" onclick="confirmAndSubmit()">Buy</button>
+                          </form>
+
                     </div>
                 </div>
             </div>
@@ -158,7 +185,11 @@
                     <div class="card-body">
                         <h5 class="card-title">Affogato</h5>
                         <p class="card-text">An Italian dessert that consists of a scoop of vanilla gelato or ice cream topped with a shot of hot espresso. It is typically served in a small bowl or glass.</p>
-                        <a href="#" class="btn btn-primary">Buy Now</a>
+                        <form method="POST" action="{{ route('coffee.buy') }}">
+                            @csrf
+                            <input type="hidden" name="coffee" value="Affogato">
+                            <button type="submit" class="btn btn-primary" onclick="confirmAndSubmit()">Buy</button>
+                          </form>
                     </div>
                 </div>
             </div>
@@ -169,7 +200,11 @@
                     <div class="card-body">
                         <h5 class="card-title">Flat White</h5>
                         <p class="card-text">A coffee drink that is made with espresso and steamed milk, but with a higher ratio of coffee to milk than a latte. It is typically served in a 6 oz. cup.</p>
-                        <a href="#" class="btn btn-primary">Buy Now</a>
+                        <form method="POST" action="{{ route('coffee.buy') }}">
+                            @csrf
+                            <input type="hidden" name="coffee" value="Flat White">
+                            <button type="submit" class="btn btn-primary" onclick="confirmAndSubmit()">Buy</button>
+                          </form>
                     </div>
                 </div>
             </div>
@@ -178,15 +213,29 @@
                 <div class="card">
                     <img src="https://globalassets.starbucks.com/assets/410cd92738514641bf497d4b6a18c30f.jpg?impolicy=1by1_wide_topcrop_630" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Classic</h5>
-                        <p class="card-text">Whether you're looking for a morning pick-me-up or a sweet afternoon treat. The smooth and velvety texture of the Frappuccino, combined with the bold and smooth flavor of coffee and the sweet, buttery taste of caramel, creates a truly indulgent and satisfying beverage that is sure to please any coffee lover.</p>
-                        <a href="#" class="btn btn-primary">Buy Now</a>
+                        <h5 class="card-title">Frapuccino</h5>
+                        <p class="card-text">Whether you're looking for a morning pick-me-up or a sweet afternoon treat. The smooth and velvety texture of the Frappuccino is sure to please any coffee lover.</p>
+                        <form method="POST" action="{{ route('coffee.buy') }}">
+                            @csrf
+                            <input type="hidden" name="coffee" value="Frapuccino">
+                            <button type="submit" class="btn btn-primary" onclick="confirmAndSubmit()">Buy</button>
+                          </form>
                     </div>
                 </div>
             </div>
 
         </div>
     </div>
+    <script>
+
+        function confirmAndSubmit() {
+          if (confirm("Are you sure you want to buy this coffee?")) {
+            document.getElementById("buy-form").submit();
+
+          }
+        }
+        </script>
+
 
     <footer class="bg-dark text-light py-3">
         <div class="container">

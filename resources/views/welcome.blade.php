@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body {
             background-image: url(https://wallpapers.com/images/featured/ack1avygrxnhaxjq.jpg);

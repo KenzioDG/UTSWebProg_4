@@ -1,11 +1,9 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
     <style>
 
@@ -13,11 +11,7 @@
             background-color: beige;
         }
         footer {
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            height: 100px;
-            margin-top: auto;
+            padding-bottom: 100px;
         }
 
         .btn-primary{

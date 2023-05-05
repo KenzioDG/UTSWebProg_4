@@ -2,7 +2,8 @@
 <html>
 <head>
     <title>Coffee List</title>
-    <!-- Bootstrap 5 CSS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <style>
@@ -59,32 +60,30 @@
     </style>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"> <img src="https://www.starbuckschilled.com/static/img/logo.87d8a2ad.png" width="30" height="30" class="d-inline-block align-top" alt="Starbucks logo">
-                    Starbucks
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/coffee-list">Cofee List</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/transaction-history">Transaction History</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand"> <img src="https://www.starbuckschilled.com/static/img/logo.87d8a2ad.png" width="30" height="30" class="d-inline-block align-top" alt="Starbucks logo">
+              Starbucks
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/coffee-list">Coffee List</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/transaction-history">Transaction History</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
 
     <div class="container">
         <h1>Our Coffee</h1>
@@ -252,3 +251,5 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>

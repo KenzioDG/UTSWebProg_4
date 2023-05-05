@@ -10,19 +10,19 @@ Pada project ini saya membuat webpage starbucks coffee karena NIM saya ganjil. W
 Web ini menggunakan database berisi dua tabel, yaitu users dan transaction. User hasMany transaction. Tabel users terdiri dari id, name, loyalty_level. Tanel transaction terdiri dari id, date, coffee, user_id(foreign key). Data diisi dengan seeder, dan diretrieve dengan controller yang mereturn ke view.
 
 ### Home
-![home](https://user-images.githubusercontent.com/127408388/236316539-d0105019-8c9d-4fa7-a310-a4c7db388af0.png)
+![image](https://user-images.githubusercontent.com/127408388/236464536-af99ef57-f33d-44fd-ad36-d5d717b63dcf.png)
 
 - Home dapat menampilkan greeting dengan waktu dan nama user
 - Home menampilkan loyalty level user dan mengubah warna header dan footer tergantung loyalty level user
 
 ### Coffee List
-![coffee-list](https://user-images.githubusercontent.com/127408388/236316754-01aa37ff-0b91-4738-8692-3c1cdfab3c32.png)
+![image](https://user-images.githubusercontent.com/127408388/236466298-05e03c64-e101-454c-bcba-b7c28cb38055.png)
 
 - Coffee list memiliki header dan footer yang sama dengan home.
 - Namun tanpa perubahan warna yang tergantung loyalty atas alasan konsistensi estetik
 
 ### Transaction History
-![transaction-history](https://user-images.githubusercontent.com/127408388/236316621-e87e5cb0-2fa5-4774-a7b2-9e6e059a8d28.png)
+![image](https://user-images.githubusercontent.com/127408388/236464392-8d62e561-1f2c-4b4e-bc8d-e94d44dff485.png)
 
 - Page ini memiliki header dan footer yang sama dengan home dan coffee list
 - Pada page ini ditampilkan transaksi yang telah dilakukan oleh user

@@ -73,7 +73,7 @@
     <div class="container mt-5">
         <h1>{{ $greeting }}, {{ $name }}!</h1>
         <p>Get your favorite coffee delivered to your doorstep and enjoy the perfect brew from the comfort of your own home. Whether you prefer a rich and bold espresso or a smooth and creamy latte, Starbucks has a wide selection of delicious drinks to satisfy your cravings. With just a few clicks, you can place an order and have it delivered right to your door, so you can sit back, relax, and savor every sip of your favorite coffee.</p>
-        <a href="" class="btn btn-primary" style="background-color: #00704A; border: #00704A; color: white;">View Our Coffee List</a>
+        <a href="/coffee-list" class="btn btn-primary" style="background-color: #00704A; border: #00704A; color: white;">View Our Coffee List</a>
     </div>
 
     <div class="container mt-5 ">
